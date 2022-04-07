@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+ @author Ivan Todorov [S1822426]
+-->
+
+<resources>
+    <color name="colorPrimary">#0057A4</color>
+    <color name="colorAccent">#6099F0</color>
+</resources>

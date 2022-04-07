@@ -1,0 +1,14 @@
+<!--
+ @author Ivan Todorov [S1822426]
+-->
+
+<resources>
+    <string name="app_name">Ivan_Todorov_MPD_CW_S1822426</string>
+    <string name="title_activity_maps">Traffic Scotland - Map</string>
+    <string name="welcoming_msg">Get notified about real-time traffic information across Scotland 🏴󠁧󠁢󠁳󠁣󠁴󠁿</string>
+    <string name="app_logo">Traffic Scotland Homepage</string>
+    <string name="option1">All Roadworks</string>
+    <string name="option2">Planned Roadworks</string>
+    <string name="back_to_main_menu">Return to main menu</string>
+    <string name="pick_a_date">Pick a date</string>
+</resources>

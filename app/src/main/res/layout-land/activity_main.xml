@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--  MPD XML Starter code Semester B Session 2020 2021  -->
+
+<!--
+ @author Ivan Todorov [S1822426]
+-->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="90dp"
+        android:layout_marginTop="5dp"
+        android:contentDescription="@string/app_logo"
+        android:src="@drawable/logo_ts_blue" />
+
+    <TextView
+        android:layout_width="500dp"
+        android:layout_height="60dp"
+        android:layout_alignParentTop="false"
+        android:layout_marginStart="110dp"
+        android:layout_marginBottom="10dp"
+        android:freezesText="false"
+        android:gravity="center"
+        android:text="@string/welcoming_msg"
+        android:textColor="#0A0000"
+        android:textSize="20sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/Roadworks_button1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="220dp"
+            android:background="#50F8F5F5"
+            android:src="@drawable/menu_icon1a"
+            android:contentDescription="@string/option1"
+            />
+
+        <ImageButton
+
+            android:id="@+id/Roadworks_button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40dp"
+            android:background="#50F8F5F5"
+            android:src="@drawable/menu_icon2a"
+            android:contentDescription="@string/option2"
+        />
+
+    </LinearLayout>
+
+
+</LinearLayout>

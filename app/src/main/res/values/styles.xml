@@ -1,0 +1,12 @@
+<!--
+ @author Ivan Todorov [S1822426]
+-->
+
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+</resources>

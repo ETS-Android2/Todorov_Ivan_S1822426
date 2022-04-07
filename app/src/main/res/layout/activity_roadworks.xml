@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+ @author Ivan Todorov [S1822426]
+-->
+
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/Main_menu_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="15dp"
+            android:background="#50F8F5F5"
+            android:contentDescription="@string/back_to_main_menu"
+            android:src="@drawable/menu_icon_home" />
+
+        <ImageButton
+            android:id="@+id/Date_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="15dp"
+            android:background="#50F8F5F5"
+            android:contentDescription="@string/pick_a_date"
+            android:onClick="showDatePicker"
+            android:src="@drawable/menu_icon_date" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/entries_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/ItemSearch"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="false"
+            android:foregroundGravity="center|right"
+            android:hint="Search... 🔍" />
+
+        <ListView
+            android:id="@android:id/list"
+            android:layout_below="@+id/ItemSearch"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:dividerHeight="4dp" />
+    </RelativeLayout>
+
+</RelativeLayout>
