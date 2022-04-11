@@ -1,5 +1,5 @@
 # Todorov_Ivan_S1822426
-Backup copy
+Backup copy for the assignment
 
 # Android Studio Application
 1. Download the repository
@@ -9,3 +9,11 @@ Backup copy
 3. Build/Compile
 
 4. Run on Emulator (AVD)
+
+# Author
+
+Name: **Ivan Todorov** 
+
+Student ID: **S1822426**
+
+Student Email: **ITODOR200@caledonian.ac.uk**
