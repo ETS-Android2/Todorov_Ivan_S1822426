@@ -1,5 +1,5 @@
 # Todorov_Ivan_S1822426
-Backup copy for the assignment
+Backup copy of the assignment
 
 # Android Studio Application
 1. Download the repository
