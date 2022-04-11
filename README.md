@@ -2,10 +2,10 @@
 Backup copy
 
 # Android Studio Application
-1.Download the repository
+1. Download the repository
 
-2.Open Project
+2. Open Project
 
-3.Build/Compile
+3. Build/Compile
 
-4.Run on Emulator (AVD)
+4. Run on Emulator (AVD)
